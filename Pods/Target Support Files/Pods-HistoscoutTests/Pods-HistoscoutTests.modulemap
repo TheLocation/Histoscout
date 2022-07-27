@@ -1,0 +1,6 @@
+framework module Pods_HistoscoutTests {
+  umbrella header "Pods-HistoscoutTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

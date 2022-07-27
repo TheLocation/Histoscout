@@ -1,0 +1,16 @@
+PODS:
+  - ScrollableGraphView (4.0.6)
+
+DEPENDENCIES:
+  - ScrollableGraphView (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - ScrollableGraphView
+
+SPEC CHECKSUMS:
+  ScrollableGraphView: 4af35d4ea9ecdec665d34a74da51da161ddff8ac
+
+PODFILE CHECKSUM: 234049348b71dbc72ac96dc1c5b807653b10755e
+
+COCOAPODS: 1.11.3

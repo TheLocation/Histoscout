@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01AD7AB9288FED6C00F774DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD7AB8288FED6C00F774DF /* AppDelegate.swift */; };
+		01AD7ABB288FED6C00F774DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD7ABA288FED6C00F774DF /* SceneDelegate.swift */; };
+		01AD7ABD288FED6C00F774DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD7ABC288FED6C00F774DF /* ViewController.swift */; };
+		01AD7AC0288FED6C00F774DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AD7ABE288FED6C00F774DF /* Main.storyboard */; };
+		01AD7AC3288FED6C00F774DF /* Histoscout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01AD7AC1288FED6C00F774DF /* Histoscout.xcdatamodeld */; };
+		01AD7AC5288FED6D00F774DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AD7AC4288FED6D00F774DF /* Assets.xcassets */; };
+		01AD7AC8288FED6D00F774DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AD7AC6288FED6D00F774DF /* LaunchScreen.storyboard */; };
+		01AD7AD3288FED6D00F774DF /* HistoscoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD7AD2288FED6D00F774DF /* HistoscoutTests.swift */; };
+		01AD7ADD288FED6D00F774DF /* HistoscoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD7ADC288FED6D00F774DF /* HistoscoutUITests.swift */; };
+		01AD7ADF288FED6D00F774DF /* HistoscoutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD7ADE288FED6D00F774DF /* HistoscoutUITestsLaunchTests.swift */; };
+		25E12319276A4017882BCE21 /* Pods_Histoscout_HistoscoutUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A55631B0B5E27528137E198 /* Pods_Histoscout_HistoscoutUITests.framework */; };
+		8602AA865ED7D62EF3697162 /* Pods_HistoscoutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5362A7A1D6D15D9218D8878B /* Pods_HistoscoutTests.framework */; };
+		CF037742C3DDE2577965612B /* Pods_Histoscout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6B4751D0E6F7D58182FC2B /* Pods_Histoscout.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01AD7ACF288FED6D00F774DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01AD7AAD288FED6C00F774DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01AD7AB4288FED6C00F774DF;
+			remoteInfo = Histoscout;
+		};
+		01AD7AD9288FED6D00F774DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01AD7AAD288FED6C00F774DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01AD7AB4288FED6C00F774DF;
+			remoteInfo = Histoscout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01AD7AB5288FED6C00F774DF /* Histoscout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Histoscout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AD7AB8288FED6C00F774DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01AD7ABA288FED6C00F774DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		01AD7ABC288FED6C00F774DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01AD7ABF288FED6C00F774DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01AD7AC2288FED6C00F774DF /* Histoscout.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Histoscout.xcdatamodel; sourceTree = "<group>"; };
+		01AD7AC4288FED6D00F774DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01AD7AC7288FED6D00F774DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01AD7AC9288FED6D00F774DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01AD7ACE288FED6D00F774DF /* HistoscoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HistoscoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AD7AD2288FED6D00F774DF /* HistoscoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoscoutTests.swift; sourceTree = "<group>"; };
+		01AD7AD8288FED6D00F774DF /* HistoscoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HistoscoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AD7ADC288FED6D00F774DF /* HistoscoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoscoutUITests.swift; sourceTree = "<group>"; };
+		01AD7ADE288FED6D00F774DF /* HistoscoutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoscoutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A55631B0B5E27528137E198 /* Pods_Histoscout_HistoscoutUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Histoscout_HistoscoutUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		423643823858B586C1F096A4 /* Pods-Histoscout-HistoscoutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Histoscout-HistoscoutUITests.debug.xcconfig"; path = "Target Support Files/Pods-Histoscout-HistoscoutUITests/Pods-Histoscout-HistoscoutUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5362A7A1D6D15D9218D8878B /* Pods_HistoscoutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HistoscoutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB0CAA5DCE65C2985E174F6 /* Pods-HistoscoutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HistoscoutTests.debug.xcconfig"; path = "Target Support Files/Pods-HistoscoutTests/Pods-HistoscoutTests.debug.xcconfig"; sourceTree = "<group>"; };
+		858647AC219C35CC170F2A2F /* Pods-Histoscout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Histoscout.release.xcconfig"; path = "Target Support Files/Pods-Histoscout/Pods-Histoscout.release.xcconfig"; sourceTree = "<group>"; };
+		87ACDCE7693CA44355E3EBD2 /* Pods-Histoscout-HistoscoutUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Histoscout-HistoscoutUITests.release.xcconfig"; path = "Target Support Files/Pods-Histoscout-HistoscoutUITests/Pods-Histoscout-HistoscoutUITests.release.xcconfig"; sourceTree = "<group>"; };
+		91CFEAB459A5476BF4F82725 /* Pods-HistoscoutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HistoscoutTests.release.xcconfig"; path = "Target Support Files/Pods-HistoscoutTests/Pods-HistoscoutTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF6B4751D0E6F7D58182FC2B /* Pods_Histoscout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Histoscout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC07E3C686F6DCB924807A88 /* Pods-Histoscout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Histoscout.debug.xcconfig"; path = "Target Support Files/Pods-Histoscout/Pods-Histoscout.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01AD7AB2288FED6C00F774DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF037742C3DDE2577965612B /* Pods_Histoscout.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AD7ACB288FED6D00F774DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8602AA865ED7D62EF3697162 /* Pods_HistoscoutTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AD7AD5288FED6D00F774DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E12319276A4017882BCE21 /* Pods_Histoscout_HistoscoutUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01AD7AAC288FED6C00F774DF = {
+			isa = PBXGroup;
+			children = (
+				01AD7AB7288FED6C00F774DF /* Histoscout */,
+				01AD7AD1288FED6D00F774DF /* HistoscoutTests */,
+				01AD7ADB288FED6D00F774DF /* HistoscoutUITests */,
+				01AD7AB6288FED6C00F774DF /* Products */,
+				D53A94302C54BDFC7BE86851 /* Pods */,
+				C367DCCE8C7EB24682F76878 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01AD7AB6288FED6C00F774DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01AD7AB5288FED6C00F774DF /* Histoscout.app */,
+				01AD7ACE288FED6D00F774DF /* HistoscoutTests.xctest */,
+				01AD7AD8288FED6D00F774DF /* HistoscoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01AD7AB7288FED6C00F774DF /* Histoscout */ = {
+			isa = PBXGroup;
+			children = (
+				01AD7AB8288FED6C00F774DF /* AppDelegate.swift */,
+				01AD7ABA288FED6C00F774DF /* SceneDelegate.swift */,
+				01AD7ABC288FED6C00F774DF /* ViewController.swift */,
+				01AD7ABE288FED6C00F774DF /* Main.storyboard */,
+				01AD7AC4288FED6D00F774DF /* Assets.xcassets */,
+				01AD7AC6288FED6D00F774DF /* LaunchScreen.storyboard */,
+				01AD7AC9288FED6D00F774DF /* Info.plist */,
+				01AD7AC1288FED6C00F774DF /* Histoscout.xcdatamodeld */,
+			);
+			path = Histoscout;
+			sourceTree = "<group>";
+		};
+		01AD7AD1288FED6D00F774DF /* HistoscoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				01AD7AD2288FED6D00F774DF /* HistoscoutTests.swift */,
+			);
+			path = HistoscoutTests;
+			sourceTree = "<group>";
+		};
+		01AD7ADB288FED6D00F774DF /* HistoscoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01AD7ADC288FED6D00F774DF /* HistoscoutUITests.swift */,
+				01AD7ADE288FED6D00F774DF /* HistoscoutUITestsLaunchTests.swift */,
+			);
+			path = HistoscoutUITests;
+			sourceTree = "<group>";
+		};
+		C367DCCE8C7EB24682F76878 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF6B4751D0E6F7D58182FC2B /* Pods_Histoscout.framework */,
+				1A55631B0B5E27528137E198 /* Pods_Histoscout_HistoscoutUITests.framework */,
+				5362A7A1D6D15D9218D8878B /* Pods_HistoscoutTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D53A94302C54BDFC7BE86851 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC07E3C686F6DCB924807A88 /* Pods-Histoscout.debug.xcconfig */,
+				858647AC219C35CC170F2A2F /* Pods-Histoscout.release.xcconfig */,
+				423643823858B586C1F096A4 /* Pods-Histoscout-HistoscoutUITests.debug.xcconfig */,
+				87ACDCE7693CA44355E3EBD2 /* Pods-Histoscout-HistoscoutUITests.release.xcconfig */,
+				6DB0CAA5DCE65C2985E174F6 /* Pods-HistoscoutTests.debug.xcconfig */,
+				91CFEAB459A5476BF4F82725 /* Pods-HistoscoutTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01AD7AB4288FED6C00F774DF /* Histoscout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AD7AE2288FED6D00F774DF /* Build configuration list for PBXNativeTarget "Histoscout" */;
+			buildPhases = (
+				5663765AC68A0DE01456BE0F /* [CP] Check Pods Manifest.lock */,
+				01AD7AB1288FED6C00F774DF /* Sources */,
+				01AD7AB2288FED6C00F774DF /* Frameworks */,
+				01AD7AB3288FED6C00F774DF /* Resources */,
+				0C504C61051B549B0DF37D76 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Histoscout;
+			productName = Histoscout;
+			productReference = 01AD7AB5288FED6C00F774DF /* Histoscout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01AD7ACD288FED6D00F774DF /* HistoscoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AD7AE5288FED6D00F774DF /* Build configuration list for PBXNativeTarget "HistoscoutTests" */;
+			buildPhases = (
+				08A2332AF9B1628AA84589E7 /* [CP] Check Pods Manifest.lock */,
+				01AD7ACA288FED6D00F774DF /* Sources */,
+				01AD7ACB288FED6D00F774DF /* Frameworks */,
+				01AD7ACC288FED6D00F774DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01AD7AD0288FED6D00F774DF /* PBXTargetDependency */,
+			);
+			name = HistoscoutTests;
+			productName = HistoscoutTests;
+			productReference = 01AD7ACE288FED6D00F774DF /* HistoscoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01AD7AD7288FED6D00F774DF /* HistoscoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AD7AE8288FED6D00F774DF /* Build configuration list for PBXNativeTarget "HistoscoutUITests" */;
+			buildPhases = (
+				21DBD239219F7BE49959CB1B /* [CP] Check Pods Manifest.lock */,
+				01AD7AD4288FED6D00F774DF /* Sources */,
+				01AD7AD5288FED6D00F774DF /* Frameworks */,
+				01AD7AD6288FED6D00F774DF /* Resources */,
+				AE2210F318FEBA850A0EECFF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01AD7ADA288FED6D00F774DF /* PBXTargetDependency */,
+			);
+			name = HistoscoutUITests;
+			productName = HistoscoutUITests;
+			productReference = 01AD7AD8288FED6D00F774DF /* HistoscoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01AD7AAD288FED6C00F774DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					01AD7AB4288FED6C00F774DF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					01AD7ACD288FED6D00F774DF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 01AD7AB4288FED6C00F774DF;
+					};
+					01AD7AD7288FED6D00F774DF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 01AD7AB4288FED6C00F774DF;
+					};
+				};
+			};
+			buildConfigurationList = 01AD7AB0288FED6C00F774DF /* Build configuration list for PBXProject "Histoscout" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01AD7AAC288FED6C00F774DF;
+			productRefGroup = 01AD7AB6288FED6C00F774DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01AD7AB4288FED6C00F774DF /* Histoscout */,
+				01AD7ACD288FED6D00F774DF /* HistoscoutTests */,
+				01AD7AD7288FED6D00F774DF /* HistoscoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01AD7AB3288FED6C00F774DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AD7AC8288FED6D00F774DF /* LaunchScreen.storyboard in Resources */,
+				01AD7AC5288FED6D00F774DF /* Assets.xcassets in Resources */,
+				01AD7AC0288FED6C00F774DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AD7ACC288FED6D00F774DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AD7AD6288FED6D00F774DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08A2332AF9B1628AA84589E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HistoscoutTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C504C61051B549B0DF37D76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Histoscout/Pods-Histoscout-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Histoscout/Pods-Histoscout-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Histoscout/Pods-Histoscout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21DBD239219F7BE49959CB1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Histoscout-HistoscoutUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5663765AC68A0DE01456BE0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Histoscout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE2210F318FEBA850A0EECFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Histoscout-HistoscoutUITests/Pods-Histoscout-HistoscoutUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Histoscout-HistoscoutUITests/Pods-Histoscout-HistoscoutUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Histoscout-HistoscoutUITests/Pods-Histoscout-HistoscoutUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01AD7AB1288FED6C00F774DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AD7AC3288FED6C00F774DF /* Histoscout.xcdatamodeld in Sources */,
+				01AD7ABD288FED6C00F774DF /* ViewController.swift in Sources */,
+				01AD7AB9288FED6C00F774DF /* AppDelegate.swift in Sources */,
+				01AD7ABB288FED6C00F774DF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AD7ACA288FED6D00F774DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AD7AD3288FED6D00F774DF /* HistoscoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AD7AD4288FED6D00F774DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AD7ADD288FED6D00F774DF /* HistoscoutUITests.swift in Sources */,
+				01AD7ADF288FED6D00F774DF /* HistoscoutUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01AD7AD0288FED6D00F774DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01AD7AB4288FED6C00F774DF /* Histoscout */;
+			targetProxy = 01AD7ACF288FED6D00F774DF /* PBXContainerItemProxy */;
+		};
+		01AD7ADA288FED6D00F774DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01AD7AB4288FED6C00F774DF /* Histoscout */;
+			targetProxy = 01AD7AD9288FED6D00F774DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01AD7ABE288FED6C00F774DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01AD7ABF288FED6C00F774DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01AD7AC6288FED6D00F774DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01AD7AC7288FED6D00F774DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01AD7AE0288FED6D00F774DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01AD7AE1288FED6D00F774DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01AD7AE3288FED6D00F774DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC07E3C686F6DCB924807A88 /* Pods-Histoscout.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4M7G325CYM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Histoscout/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matteopostorino.Histoscout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		01AD7AE4288FED6D00F774DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 858647AC219C35CC170F2A2F /* Pods-Histoscout.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4M7G325CYM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Histoscout/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matteopostorino.Histoscout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		01AD7AE6288FED6D00F774DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DB0CAA5DCE65C2985E174F6 /* Pods-HistoscoutTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4M7G325CYM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matteopostorino.HistoscoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Histoscout.app/Histoscout";
+			};
+			name = Debug;
+		};
+		01AD7AE7288FED6D00F774DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91CFEAB459A5476BF4F82725 /* Pods-HistoscoutTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4M7G325CYM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matteopostorino.HistoscoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Histoscout.app/Histoscout";
+			};
+			name = Release;
+		};
+		01AD7AE9288FED6D00F774DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 423643823858B586C1F096A4 /* Pods-Histoscout-HistoscoutUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4M7G325CYM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matteopostorino.HistoscoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Histoscout;
+			};
+			name = Debug;
+		};
+		01AD7AEA288FED6D00F774DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87ACDCE7693CA44355E3EBD2 /* Pods-Histoscout-HistoscoutUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4M7G325CYM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matteopostorino.HistoscoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Histoscout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01AD7AB0288FED6C00F774DF /* Build configuration list for PBXProject "Histoscout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AD7AE0288FED6D00F774DF /* Debug */,
+				01AD7AE1288FED6D00F774DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01AD7AE2288FED6D00F774DF /* Build configuration list for PBXNativeTarget "Histoscout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AD7AE3288FED6D00F774DF /* Debug */,
+				01AD7AE4288FED6D00F774DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01AD7AE5288FED6D00F774DF /* Build configuration list for PBXNativeTarget "HistoscoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AD7AE6288FED6D00F774DF /* Debug */,
+				01AD7AE7288FED6D00F774DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01AD7AE8288FED6D00F774DF /* Build configuration list for PBXNativeTarget "HistoscoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AD7AE9288FED6D00F774DF /* Debug */,
+				01AD7AEA288FED6D00F774DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		01AD7AC1288FED6C00F774DF /* Histoscout.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				01AD7AC2288FED6C00F774DF /* Histoscout.xcdatamodel */,
+			);
+			currentVersion = 01AD7AC2288FED6C00F774DF /* Histoscout.xcdatamodel */;
+			path = Histoscout.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 01AD7AAD288FED6C00F774DF /* Project object */;
+}
