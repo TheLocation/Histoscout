@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01A30269289295E500758F42 /* GoogleService-Info-7.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01A30268289295E500758F42 /* GoogleService-Info-7.plist */; };
 		01AD7AB9288FED6C00F774DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD7AB8288FED6C00F774DF /* AppDelegate.swift */; };
 		01AD7ABB288FED6C00F774DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD7ABA288FED6C00F774DF /* SceneDelegate.swift */; };
 		01AD7ABD288FED6C00F774DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD7ABC288FED6C00F774DF /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01A30268289295E500758F42 /* GoogleService-Info-7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-7.plist"; sourceTree = "<group>"; };
 		01AD7AB5288FED6C00F774DF /* Histoscout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Histoscout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AD7AB8288FED6C00F774DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01AD7ABA288FED6C00F774DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				01AD7AC4288FED6D00F774DF /* Assets.xcassets */,
 				01AD7AC6288FED6D00F774DF /* LaunchScreen.storyboard */,
 				01AD7AC9288FED6D00F774DF /* Info.plist */,
+				01A30268289295E500758F42 /* GoogleService-Info-7.plist */,
 				01AD7AC1288FED6C00F774DF /* Histoscout.xcdatamodeld */,
 			);
 			path = Histoscout;
@@ -167,7 +170,6 @@
 				6DB0CAA5DCE65C2985E174F6 /* Pods-HistoscoutTests.debug.xcconfig */,
 				91CFEAB459A5476BF4F82725 /* Pods-HistoscoutTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -283,6 +285,7 @@
 				01AD7AC8288FED6D00F774DF /* LaunchScreen.storyboard in Resources */,
 				01AD7AC5288FED6D00F774DF /* Assets.xcassets in Resources */,
 				01AD7AC0288FED6C00F774DF /* Main.storyboard in Resources */,
+				01A30269289295E500758F42 /* GoogleService-Info-7.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

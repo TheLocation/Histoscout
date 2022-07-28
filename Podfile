@@ -8,6 +8,7 @@ target 'Histoscout' do
   # Pods for Histoscout
   pod 'ScrollableGraphView', '~> 4.0'
 
+
   target 'HistoscoutTests' do
     inherit! :search_paths
     # Pods for testing
