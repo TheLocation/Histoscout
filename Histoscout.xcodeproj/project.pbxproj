@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01A30269289295E500758F42 /* GoogleService-Info-7.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01A30268289295E500758F42 /* GoogleService-Info-7.plist */; };
+		016468402893F16200B74B55 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0164683F2893F16200B74B55 /* Map.swift */; };
+		016468422893F46200B74B55 /* EditableAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016468412893F46200B74B55 /* EditableAnnotation.swift */; };
+		016468442893F48600B74B55 /* CustomCallout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016468432893F48600B74B55 /* CustomCallout.swift */; };
+		01A30269289295E500758F42 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01A30268289295E500758F42 /* GoogleService-Info.plist */; };
 		01AD7AB9288FED6C00F774DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD7AB8288FED6C00F774DF /* AppDelegate.swift */; };
 		01AD7ABB288FED6C00F774DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD7ABA288FED6C00F774DF /* SceneDelegate.swift */; };
 		01AD7ABD288FED6C00F774DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD7ABC288FED6C00F774DF /* ViewController.swift */; };
@@ -41,7 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01A30268289295E500758F42 /* GoogleService-Info-7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-7.plist"; sourceTree = "<group>"; };
+		0164683F2893F16200B74B55 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		016468412893F46200B74B55 /* EditableAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableAnnotation.swift; sourceTree = "<group>"; };
+		016468432893F48600B74B55 /* CustomCallout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCallout.swift; sourceTree = "<group>"; };
+		01A30268289295E500758F42 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		01AD7AB5288FED6C00F774DF /* Histoscout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Histoscout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AD7AB8288FED6C00F774DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01AD7ABA288FED6C00F774DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +101,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0164683E2893F13700B74B55 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				0164683F2893F16200B74B55 /* Map.swift */,
+				016468412893F46200B74B55 /* EditableAnnotation.swift */,
+				016468432893F48600B74B55 /* CustomCallout.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		01AD7AAC288FED6C00F774DF = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +136,7 @@
 		01AD7AB7288FED6C00F774DF /* Histoscout */ = {
 			isa = PBXGroup;
 			children = (
+				0164683E2893F13700B74B55 /* Map */,
 				01AD7AB8288FED6C00F774DF /* AppDelegate.swift */,
 				01AD7ABA288FED6C00F774DF /* SceneDelegate.swift */,
 				01AD7ABC288FED6C00F774DF /* ViewController.swift */,
@@ -127,7 +144,7 @@
 				01AD7AC4288FED6D00F774DF /* Assets.xcassets */,
 				01AD7AC6288FED6D00F774DF /* LaunchScreen.storyboard */,
 				01AD7AC9288FED6D00F774DF /* Info.plist */,
-				01A30268289295E500758F42 /* GoogleService-Info-7.plist */,
+				01A30268289295E500758F42 /* GoogleService-Info.plist */,
 				01AD7AC1288FED6C00F774DF /* Histoscout.xcdatamodeld */,
 			);
 			path = Histoscout;
@@ -285,7 +302,7 @@
 				01AD7AC8288FED6D00F774DF /* LaunchScreen.storyboard in Resources */,
 				01AD7AC5288FED6D00F774DF /* Assets.xcassets in Resources */,
 				01AD7AC0288FED6C00F774DF /* Main.storyboard in Resources */,
-				01A30269289295E500758F42 /* GoogleService-Info-7.plist in Resources */,
+				01A30269289295E500758F42 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +430,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016468402893F16200B74B55 /* Map.swift in Sources */,
 				01AD7AC3288FED6C00F774DF /* Histoscout.xcdatamodeld in Sources */,
+				016468422893F46200B74B55 /* EditableAnnotation.swift in Sources */,
 				01AD7ABD288FED6C00F774DF /* ViewController.swift in Sources */,
 				01AD7AB9288FED6C00F774DF /* AppDelegate.swift in Sources */,
 				01AD7ABB288FED6C00F774DF /* SceneDelegate.swift in Sources */,
+				016468442893F48600B74B55 /* CustomCallout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,6 +619,9 @@
 				DEVELOPMENT_TEAM = 4M7G325CYM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Histoscout/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -628,6 +651,9 @@
 				DEVELOPMENT_TEAM = 4M7G325CYM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Histoscout/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
