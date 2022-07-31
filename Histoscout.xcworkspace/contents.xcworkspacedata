@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/matteoposto84/Desktop/Histoscout/Histoscout/Map/Location.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:Histoscout/Map/Location.gpx">
+   </FileRef>
+   <FileRef
       location = "group:Histoscout.xcodeproj">
    </FileRef>
    <FileRef

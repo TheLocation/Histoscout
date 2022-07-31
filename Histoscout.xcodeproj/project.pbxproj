@@ -10,6 +10,7 @@
 		016468402893F16200B74B55 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0164683F2893F16200B74B55 /* Map.swift */; };
 		016468422893F46200B74B55 /* EditableAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016468412893F46200B74B55 /* EditableAnnotation.swift */; };
 		016468442893F48600B74B55 /* CustomCallout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016468432893F48600B74B55 /* CustomCallout.swift */; };
+		016468472897174900B74B55 /* Debug Location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 016468462897174900B74B55 /* Debug Location.gpx */; };
 		01A30269289295E500758F42 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01A30268289295E500758F42 /* GoogleService-Info.plist */; };
 		01AD7AB9288FED6C00F774DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD7AB8288FED6C00F774DF /* AppDelegate.swift */; };
 		01AD7ABB288FED6C00F774DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD7ABA288FED6C00F774DF /* SceneDelegate.swift */; };
@@ -47,6 +48,7 @@
 		0164683F2893F16200B74B55 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		016468412893F46200B74B55 /* EditableAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableAnnotation.swift; sourceTree = "<group>"; };
 		016468432893F48600B74B55 /* CustomCallout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCallout.swift; sourceTree = "<group>"; };
+		016468462897174900B74B55 /* Debug Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Debug Location.gpx"; sourceTree = "<group>"; };
 		01A30268289295E500758F42 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		01AD7AB5288FED6C00F774DF /* Histoscout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Histoscout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AD7AB8288FED6C00F774DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			children = (
 				0164683F2893F16200B74B55 /* Map.swift */,
 				016468412893F46200B74B55 /* EditableAnnotation.swift */,
+				016468462897174900B74B55 /* Debug Location.gpx */,
 				016468432893F48600B74B55 /* CustomCallout.swift */,
 			);
 			path = Map;
@@ -301,6 +304,7 @@
 			files = (
 				01AD7AC8288FED6D00F774DF /* LaunchScreen.storyboard in Resources */,
 				01AD7AC5288FED6D00F774DF /* Assets.xcassets in Resources */,
+				016468472897174900B74B55 /* Debug Location.gpx in Resources */,
 				01AD7AC0288FED6C00F774DF /* Main.storyboard in Resources */,
 				01A30269289295E500758F42 /* GoogleService-Info.plist in Resources */,
 			);

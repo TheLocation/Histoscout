@@ -27,16 +27,18 @@ class Map_ViewController: UIViewController, UIGestureRecognizerDelegate{
         
         super.viewDidLoad()
         
+        /*
         let urlTemplate = "http://tile.openstreetmap.org/{z}/{x}/{y}.png"
         let overlay = MKTileOverlay(urlTemplate: urlTemplate)
         overlay.canReplaceMapContent = true
+        */
         
         locationManager.delegate = self
         mapView.delegate = self
         mapView.showsUserLocation = true
         mapView.showsTraffic = true
-        mapView.mapType = .standard
-        mapView.addOverlay(overlay, level: .aboveLabels)
+        mapView.mapType = .hybridFlyover
+        //mapView.addOverlay(overlay, level: .aboveLabels)
         //Location Manager to find user current position.
         checkLocationServices()
 
