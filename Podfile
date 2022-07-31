@@ -6,7 +6,7 @@ target 'Histoscout' do
   use_frameworks!
 
   # Pods for Histoscout
-  pod 'ScrollableGraphView', '~> 4.0'
+  pod 'FirebaseCore'
 
 
   target 'HistoscoutTests' do

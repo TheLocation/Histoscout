@@ -53,33 +53,25 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="5b9-an-vRL">
                                 <rect key="frame" x="20" y="44" width="374" height="707"/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXl-Wc-oQ6">
-                                <rect key="frame" x="20" y="759" width="172" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="172" id="Ilm-v9-ve8"/>
-                                    <constraint firstAttribute="height" constant="31" id="U9P-qd-jcQ"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CR7-11-DvA">
-                                <rect key="frame" x="222" y="759" width="172" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHb-Ac-3N5">
+                                <rect key="frame" x="20" y="759" width="374" height="50"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Options">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
+                                    <color key="baseBackgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="CR7-11-DvA" firstAttribute="baseline" secondItem="SXl-Wc-oQ6" secondAttribute="baseline" id="76m-F4-8uW"/>
-                            <constraint firstItem="SXl-Wc-oQ6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="8y3-X3-EZa"/>
-                            <constraint firstItem="CR7-11-DvA" firstAttribute="leading" secondItem="SXl-Wc-oQ6" secondAttribute="trailing" constant="30" id="R4I-Nk-emb"/>
-                            <constraint firstItem="SXl-Wc-oQ6" firstAttribute="top" secondItem="5b9-an-vRL" secondAttribute="bottom" constant="8" symbolic="YES" id="UDR-vx-7G7"/>
+                            <constraint firstItem="eHb-Ac-3N5" firstAttribute="top" secondItem="5b9-an-vRL" secondAttribute="bottom" constant="8" symbolic="YES" id="FKD-gE-EZg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eHb-Ac-3N5" secondAttribute="bottom" constant="4" id="LEe-15-qZP"/>
                             <constraint firstItem="5b9-an-vRL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="WUN-vg-jQM"/>
                             <constraint firstItem="5b9-an-vRL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bfD-Wy-x1V"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5b9-an-vRL" secondAttribute="trailing" constant="20" id="ef9-sD-uMF"/>
-                            <constraint firstItem="CR7-11-DvA" firstAttribute="trailing" secondItem="5b9-an-vRL" secondAttribute="trailing" id="xPi-ib-s3J"/>
+                            <constraint firstItem="eHb-Ac-3N5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jcJ-Xs-tI5"/>
                             <constraint firstItem="5b9-an-vRL" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-62" id="zI1-Ix-QUu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eHb-Ac-3N5" secondAttribute="trailing" constant="20" id="zvx-pv-cW3"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" selectedImage="map" catalog="system" id="Tya-xb-4AK"/>
@@ -89,7 +81,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-791" y="-1201"/>
+            <point key="canvasLocation" x="-791.304347826087" y="-1201.3392857142856"/>
         </scene>
     </scenes>
     <resources>
