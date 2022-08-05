@@ -22,6 +22,8 @@
 		01AD7AD3288FED6D00F774DF /* HistoscoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD7AD2288FED6D00F774DF /* HistoscoutTests.swift */; };
 		01AD7ADD288FED6D00F774DF /* HistoscoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD7ADC288FED6D00F774DF /* HistoscoutUITests.swift */; };
 		01AD7ADF288FED6D00F774DF /* HistoscoutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD7ADE288FED6D00F774DF /* HistoscoutUITestsLaunchTests.swift */; };
+		01BB65D4289D6C2D007E41AB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BB65D3289D6C2D007E41AB /* WebKit.framework */; };
+		01BB65D6289D6C74007E41AB /* Home_Web.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB65D5289D6C74007E41AB /* Home_Web.swift */; };
 		25E12319276A4017882BCE21 /* Pods_Histoscout_HistoscoutUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A55631B0B5E27528137E198 /* Pods_Histoscout_HistoscoutUITests.framework */; };
 		8602AA865ED7D62EF3697162 /* Pods_HistoscoutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5362A7A1D6D15D9218D8878B /* Pods_HistoscoutTests.framework */; };
 		CF037742C3DDE2577965612B /* Pods_Histoscout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6B4751D0E6F7D58182FC2B /* Pods_Histoscout.framework */; };
@@ -64,6 +66,8 @@
 		01AD7AD8288FED6D00F774DF /* HistoscoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HistoscoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AD7ADC288FED6D00F774DF /* HistoscoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoscoutUITests.swift; sourceTree = "<group>"; };
 		01AD7ADE288FED6D00F774DF /* HistoscoutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoscoutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		01BB65D3289D6C2D007E41AB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		01BB65D5289D6C74007E41AB /* Home_Web.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_Web.swift; sourceTree = "<group>"; };
 		1A55631B0B5E27528137E198 /* Pods_Histoscout_HistoscoutUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Histoscout_HistoscoutUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		423643823858B586C1F096A4 /* Pods-Histoscout-HistoscoutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Histoscout-HistoscoutUITests.debug.xcconfig"; path = "Target Support Files/Pods-Histoscout-HistoscoutUITests/Pods-Histoscout-HistoscoutUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5362A7A1D6D15D9218D8878B /* Pods_HistoscoutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HistoscoutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01BB65D4289D6C2D007E41AB /* WebKit.framework in Frameworks */,
 				CF037742C3DDE2577965612B /* Pods_Histoscout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +144,7 @@
 		01AD7AB7288FED6C00F774DF /* Histoscout */ = {
 			isa = PBXGroup;
 			children = (
+				01BB65CF289D6A7A007E41AB /* Home */,
 				0164683E2893F13700B74B55 /* Map */,
 				01AD7AB8288FED6C00F774DF /* AppDelegate.swift */,
 				01AD7ABA288FED6C00F774DF /* SceneDelegate.swift */,
@@ -170,9 +176,18 @@
 			path = HistoscoutUITests;
 			sourceTree = "<group>";
 		};
+		01BB65CF289D6A7A007E41AB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				01BB65D5289D6C74007E41AB /* Home_Web.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		C367DCCE8C7EB24682F76878 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				01BB65D3289D6C2D007E41AB /* WebKit.framework */,
 				AF6B4751D0E6F7D58182FC2B /* Pods_Histoscout.framework */,
 				1A55631B0B5E27528137E198 /* Pods_Histoscout_HistoscoutUITests.framework */,
 				5362A7A1D6D15D9218D8878B /* Pods_HistoscoutTests.framework */,
@@ -441,6 +456,7 @@
 				01AD7AB9288FED6C00F774DF /* AppDelegate.swift in Sources */,
 				01AD7ABB288FED6C00F774DF /* SceneDelegate.swift in Sources */,
 				016468442893F48600B74B55 /* CustomCallout.swift in Sources */,
+				01BB65D6289D6C74007E41AB /* Home_Web.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
