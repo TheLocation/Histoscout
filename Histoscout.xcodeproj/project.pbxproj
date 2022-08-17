@@ -24,6 +24,7 @@
 		01AD7ADF288FED6D00F774DF /* HistoscoutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD7ADE288FED6D00F774DF /* HistoscoutUITestsLaunchTests.swift */; };
 		01BB65D4289D6C2D007E41AB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BB65D3289D6C2D007E41AB /* WebKit.framework */; };
 		01BB65D6289D6C74007E41AB /* Home_Web.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB65D5289D6C74007E41AB /* Home_Web.swift */; };
+		01FCE93728AD5E1D005A4AA3 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FCE93628AD5E1D005A4AA3 /* FirebaseCore.framework */; };
 		25E12319276A4017882BCE21 /* Pods_Histoscout_HistoscoutUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A55631B0B5E27528137E198 /* Pods_Histoscout_HistoscoutUITests.framework */; };
 		8602AA865ED7D62EF3697162 /* Pods_HistoscoutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5362A7A1D6D15D9218D8878B /* Pods_HistoscoutTests.framework */; };
 		CF037742C3DDE2577965612B /* Pods_Histoscout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6B4751D0E6F7D58182FC2B /* Pods_Histoscout.framework */; };
@@ -68,6 +69,7 @@
 		01AD7ADE288FED6D00F774DF /* HistoscoutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoscoutUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		01BB65D3289D6C2D007E41AB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		01BB65D5289D6C74007E41AB /* Home_Web.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_Web.swift; sourceTree = "<group>"; };
+		01FCE93628AD5E1D005A4AA3 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A55631B0B5E27528137E198 /* Pods_Histoscout_HistoscoutUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Histoscout_HistoscoutUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		423643823858B586C1F096A4 /* Pods-Histoscout-HistoscoutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Histoscout-HistoscoutUITests.debug.xcconfig"; path = "Target Support Files/Pods-Histoscout-HistoscoutUITests/Pods-Histoscout-HistoscoutUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5362A7A1D6D15D9218D8878B /* Pods_HistoscoutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HistoscoutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01FCE93728AD5E1D005A4AA3 /* FirebaseCore.framework in Frameworks */,
 				01BB65D4289D6C2D007E41AB /* WebKit.framework in Frameworks */,
 				CF037742C3DDE2577965612B /* Pods_Histoscout.framework in Frameworks */,
 			);
@@ -187,6 +190,7 @@
 		C367DCCE8C7EB24682F76878 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				01FCE93628AD5E1D005A4AA3 /* FirebaseCore.framework */,
 				01BB65D3289D6C2D007E41AB /* WebKit.framework */,
 				AF6B4751D0E6F7D58182FC2B /* Pods_Histoscout.framework */,
 				1A55631B0B5E27528137E198 /* Pods_Histoscout_HistoscoutUITests.framework */,

@@ -9,8 +9,9 @@
 import UIKit
 import MapKit
 import CoreLocation
+import FirebaseCore
 
-@available(iOS 13.0, *)
+@available(iOS 15.0, *)
 
 class Map_ViewController: UIViewController, UIGestureRecognizerDelegate{
         
@@ -130,7 +131,7 @@ class Map_ViewController: UIViewController, UIGestureRecognizerDelegate{
     }
 }
 
-@available(iOS 13.0, *)
+@available(iOS 15.0, *)
 
 extension Map_ViewController: CLLocationManagerDelegate {
     
@@ -154,7 +155,7 @@ extension Map_ViewController: CLLocationManagerDelegate {
     }
 }
 
-@available(iOS 13.0, *)
+@available(iOS 15.0, *)
 extension Map_ViewController:  MKMapViewDelegate{
     
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
