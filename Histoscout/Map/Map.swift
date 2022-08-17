@@ -124,7 +124,8 @@ class Map_ViewController: UIViewController, UIGestureRecognizerDelegate{
         let arsenaleMM = EditableAnnotation()
         arsenaleMM.title = "Arsenale Marina Militare"
         arsenaleMM.subtitle = "L'arsenale e servito per salvaguardarci dai nazisti che senno campo di concentramento easy a go go"
-        arsenaleMM.image = "navy_arsenale"
+        //immagine piu piccola
+        arsenaleMM.image = "gps_pointer"
         arsenaleMM.coordinate = CLLocationCoordinate2D(latitude: 44.101638, longitude: 9.820330)
                 
         mapView.addAnnotation(arsenaleMM)
