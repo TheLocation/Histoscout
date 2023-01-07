@@ -5,6 +5,9 @@
       location = "group:Histoscout/Map/Debug Location.gpx">
    </FileRef>
    <FileRef
+      location = "group:Histoscout/Map/Debug Location.gpx">
+   </FileRef>
+   <FileRef
       location = "group:Histoscout.xcodeproj">
    </FileRef>
    <FileRef

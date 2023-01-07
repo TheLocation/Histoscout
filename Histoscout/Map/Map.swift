@@ -10,13 +10,14 @@ import UIKit
 import MapKit
 import CoreLocation
 import FirebaseCore
+import FirebaseCoreInternal
 
 @available(iOS 15.0, *)
 
 class Map_ViewController: UIViewController, UIGestureRecognizerDelegate{
         
     let Custom_annotation = EditableAnnotation()
-    
+    //Initiate Firebase DB to retrieve data
     var path_selected = false
     
     @IBOutlet weak var mapView: MKMapView!
@@ -28,18 +29,15 @@ class Map_ViewController: UIViewController, UIGestureRecognizerDelegate{
         
         super.viewDidLoad()
         
-        /*
         let urlTemplate = "http://tile.openstreetmap.org/{z}/{x}/{y}.png"
         let overlay = MKTileOverlay(urlTemplate: urlTemplate)
         overlay.canReplaceMapContent = true
-        */
         
         locationManager.delegate = self
         mapView.delegate = self
         mapView.showsUserLocation = true
         mapView.showsTraffic = true
-        mapView.mapType = .hybridFlyover
-        //mapView.addOverlay(overlay, level: .aboveLabels)
+        mapView.addOverlay(overlay, level: .aboveLabels)
         //Location Manager to find user current position.
         checkLocationServices()
 
@@ -54,6 +52,9 @@ class Map_ViewController: UIViewController, UIGestureRecognizerDelegate{
         }
     }
     
+    private func readDB(){
+        //let ref = Database.database().reference(withPath: "grocery-items")
+    }
     //MARK: set up location manager
     func setUpLocationManager(){
         locationManager.delegate = self
@@ -85,7 +86,6 @@ class Map_ViewController: UIViewController, UIGestureRecognizerDelegate{
             mapView.showsBuildings = true
             mapView.showsScale = true
             updatelocation()
-            //Map Staff
             break
         case .denied:
             //Show alert
@@ -122,6 +122,7 @@ class Map_ViewController: UIViewController, UIGestureRecognizerDelegate{
     
     func setAnnotation() {
         let arsenaleMM = EditableAnnotation()
+        
         arsenaleMM.title = "Arsenale Marina Militare"
         arsenaleMM.subtitle = "L'arsenale e servito per salvaguardarci dai nazisti che senno campo di concentramento easy a go go"
         //immagine piu piccola
