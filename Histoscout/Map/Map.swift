@@ -9,6 +9,7 @@
 import UIKit
 import MapKit
 import CoreLocation
+import Firebase
 import FirebaseCore
 import FirebaseCoreInternal
 
@@ -18,6 +19,8 @@ class Map_ViewController: UIViewController, UIGestureRecognizerDelegate{
         
     let Custom_annotation = EditableAnnotation()
     //Initiate Firebase DB to retrieve data
+    
+    
     var path_selected = false
     
     @IBOutlet weak var mapView: MKMapView!
@@ -170,7 +173,7 @@ extension Map_ViewController:  MKMapViewDelegate{
         
         if annotationView == nil {
             
-            annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: "annotationView")
+        annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: "annotationView")
             
 //                      annotationView = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: "annotationView") - READ DOCS!!
             
